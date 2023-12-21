@@ -1,5 +1,12 @@
 # Compute shader toy based on wgpu
 
+---
+
+This repo is for my personal experiments with wgpu and shaders. Originally taken from googlefonts/compute-shader-101
+
+
+---
+
 This is a starting point for running compute shaders and drawing the image output into a window, based on [wgpu]. You should be able to change the shader (paint.wgsl) and run using simply `cargo run`.
 
 If there are syntax errors in the shader, the error message can be pretty cryptic. It might be useful to run [naga] from the commandline to validate the shader code.
